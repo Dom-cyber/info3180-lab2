@@ -1,3 +1,70 @@
-body {
-    padding-top: 5rem;
+body { 
+background-color:purple;
+border-style: dotted;
+
+}
+
+.profile {
+  background-color: purple;  
+  text-align: center; 
+}
+
+.profilepic {
+  border-radius: 50%; 
+} 
+
+.profilestats {
+  float:center;
+ 
+}
+
+.item {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 0.5rem;
+   
+}
+.value {
+      font-size: 1rem;
+   }
+   
+   .label {
+      margin-top: 0.15rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--primary);
+   }
+.value {
+      margin-top: 0.15rem;
+      font-size: 0.75rem;
+      line-height: 1.25rem;
+   }
+.profilestats {
+   margin-top: 1rem;
+   display: grid;
+   grid-auto-flow: column;
+}
+.value {
+  font-size:20px;
+  font-style: italic;
+}
+.label {
+  font-size:20px;
+  font-style: italic;
+
+}
+.followbutton {
+  text-align: center;
+  
+}
+.bio {
+  
+}
+.but1 {
+  border: 900px solid dotted;
+  border-radius: 20px;
+  background-color:pink;
+  height:40px;
+  width:99px;
+  font-size:18px;
 }

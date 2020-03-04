@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> INFO3180 Lab 2 </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body>
+	
+<div class="profile" style="width:50%">
+
+{% block content %}
+	<img src="{{ url_for('static', filename='me.jpg') }}" class="profilepic" style="width:50%"/>
+	<p> <h1> Dominique Outar </h1> <br> <h4>@doutar</h4> <br> <h3>Montego-Bay, Jamaica</h3><br>
+	<h3> Joined January, 2020 </h3>
+	</div> 
+  
+
+	<div class="bio" style="width:50%"> 
+	<p> I'm Dom, an intelligent, kind and talented individual who currently studies at the University of West Indies. 
+	Follow me to learn more! </p>
+	</div> 
+	
+	<div class="profilestats" style="width:50%"> 
+		<div class="item">
+            <span class="value">25</span>
+            <span class="label">Posts</span>
+         </div>
+         <div class="item">
+            <span class="value">130</span>
+            <span class="label">Following</span>
+         </div>
+          <div class="item">
+            <span class="value">375</span>
+            <span class="label">Followers</span>
+         </div>
+	</div> 
+	
+	<div class="followbutton" style="width:50%">
+		<p><button class="but1">Follow</button></p>
+{% endblock content %}
+{% extends "base.html" %}
+
+</div>
+
+</body>
+
+</html> 
